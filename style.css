@@ -1,0 +1,93 @@
+@import url('fonts/main_font.css');
+
+* {
+    /* Сбрасывание стандартных стилей и добавление шрифтов */
+    margin: 0;
+    font-family: 'StratosSkyeng', sans-serif;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.content {
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+
+.center {
+    padding-left: calc(50% - 500px);
+    padding-right: calc(50% - 500px);
+}
+
+.prev-page {
+    background-color: #894AFF;
+    color: white;
+    padding: 11px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 38px;
+    position: absolute;
+    left: 100px;
+    top: 24px;
+}
+
+.next-page {
+    background-color: #894AFF;
+    color: white;
+    padding: 11px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 38px;
+    position: absolute;
+    right: 100px;
+    top: 24px;
+}
+
+.title {
+    padding-top: 128px;
+    margin-bottom: 32px;
+}
+
+.name {
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.in-one-line {
+    display: flex;
+    gap: 32px;
+}
+
+.main-img {
+    width: 50%;
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+
+.main-text {
+    text-align: left;
+    font-size: 22px;
+    margin-bottom: 16px;
+}
+
+.list-title {
+    text-align: left;
+    font-size: 22px;
+    margin-bottom: 24px;
+}
+
+.listEl {
+    text-align: left;
+    font-size: 22px;
+    padding-bottom: 24px;
+}
+
+.meme-img {
+    width: 45%;
+    border-radius: 12px;
+    margin: 16px 0px;
+}
